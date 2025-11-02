@@ -17,6 +17,7 @@ A **clean, console-based personal finance manager** built in **Java** using **OO
 - **Auto-load** on startup
 - Input validation & error handling
 - **Clear All Data** with confirmation
+
 ---
 
 ## Tech Stack
@@ -105,3 +106,12 @@ Balance      : $1254.50
 [https://x.com/darrenasuquo]
 
 ---
+---
+
+## License
+
+MIT © 2025
+
+---
+
+**Built in 2 days with a little help from [@grok](https://x.ai) — 100% my design and code.**
