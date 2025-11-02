@@ -1,0 +1,13 @@
+# Compiled Java files
+*.class
+
+# Data files (user-specific)
+data/
+*.dat
+
+# IDE/Editor junk
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
