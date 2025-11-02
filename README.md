@@ -16,7 +16,7 @@ A **clean, console-based personal finance manager** built in **Java** using **OO
 - **Auto-save** on exit
 - **Auto-load** on startup
 - Input validation & error handling
-
+- **Clear All Data** with confirmation
 ---
 
 ## Tech Stack

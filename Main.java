@@ -43,6 +43,7 @@ public class Main {
         System.out.println("5. Filter by Category");
         System.out.println("6. Filter by Month");
         System.out.println("7. Save and exit");
+        System.out.println("8. Clear All Data");
     }
 
     public static void handleChoice(int choice) {
@@ -132,6 +133,17 @@ public class Main {
                 handler.save(manager);
                 System.out.println("Saved. Exiting.");
                 running = false;
+            }
+
+            case 8 -> {//CLEAR ALL DATA
+                System.out.print("\u001B[31mAre you sure you want to delete ALL data? (yes/no): \u001B[0m");
+                String confirm = input.nextLine().trim().toLowerCase();
+                if (confirm.equals("yes") || confirm.equals("y")) {
+                    manager.clear();
+                    System.out.println("All data cleared.");
+                } else {
+                    System.out.println("Clear cancelled.");
+                }
             }
 
             default ->
